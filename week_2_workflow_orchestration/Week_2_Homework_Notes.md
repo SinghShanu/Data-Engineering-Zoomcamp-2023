@@ -184,6 +184,8 @@ How many rows were processed by the script?
 728,390
 514,392
 
+Solution: submitted via google forms
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 Question 6. Secrets
@@ -194,4 +196,5 @@ Prefect Secret blocks provide secure, encrypted storage in the database and obfu
 8
 10
 
+Solution: submitted via google forms
 -------------------------------------------------------------------------------------------------------------------------------------------------
