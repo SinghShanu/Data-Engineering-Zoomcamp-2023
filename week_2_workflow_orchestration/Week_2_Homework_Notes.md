@@ -3,6 +3,7 @@ The goal of this homework is to familiarise users with workflow orchestration an
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 Question 1. Load January 2020 data
+
 Using the etl_web_to_gcs.py flow that loads taxi data into GCS as a guide, create a flow that loads the green taxi CSV dataset for January 2020 into GCS and run it. Look at the logs to find out how many rows the dataset has.
 
 How many rows does that dataset have?
@@ -134,7 +135,7 @@ View Deployment in UI: http://127.0.0.1:4200/deployments/deployment/a1c689ed-be8
 To execute flow runs from this deployment, start an agent that pulls work from the 'default' work queue:
 $ prefect agent start -q 'default'
 
-image.png
+![image](https://user-images.githubusercontent.com/25007013/216913804-f8b25ac1-a85b-438f-a493-ddd86166d97d.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -184,6 +185,8 @@ How many rows were processed by the script?
 728,390
 514,392
 
+Solution: submitted via google forms
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 Question 6. Secrets
@@ -194,4 +197,6 @@ Prefect Secret blocks provide secure, encrypted storage in the database and obfu
 8
 10
 
+Solution: submitted via google forms
 -------------------------------------------------------------------------------------------------------------------------------------------------
+
