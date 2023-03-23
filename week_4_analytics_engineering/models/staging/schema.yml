@@ -9,6 +9,7 @@ sources:
       tables:
         - name: green_taxi_data
         - name: yellow_taxi_data
+        - name: fhv_trips_partitioned_clustered
 
 models:
     - name: stg_green_tripdata
@@ -192,4 +193,42 @@ models:
           - name: Tolls_amount 
             description: Total amount of all tolls paid in trip.
           - name: Total_amount 
+            description: The total amount charged to passengers. Does not include cash tips.
+
+    - name: stg_fhv_tripdata
+      description: Trip made by for hire vehicles in the year 2019
+      columns:
+        - name: int64_field_0
+          description: Primary key with random generated integers
+        - name: dispatching_base_num
+          description: >
+            Dispatching base number record
+        - name: pickup_datetime
+          description: >
+            Date and time of pickup for fhv
+          tests:
+                - unique:
+                    severity: warn
+                - not_null:
+                    severity: warn
+        - name: dropOff_datetime
+          description: >
+            Date and time of drop for fhv
+          tests:
+                - unique:
+                    severity: warn
+                - not_null:
+                    severity: warn
+        - name: PUlocationID
+          description: >
+            Identifier for pickup location
+        - name: DOlocationID
+          description: >
+            Identifier for dropoff location
+        - name: SR_Flag
+          description: >
+            Store and forward flag
+        - name: Affiliated_base_number
+          description: >
+            Associated base number for the fhv trip and vehicle
             description: The total amount charged to passengers. Does not include cash tips.
