@@ -231,3 +231,4 @@ models:
         - name: Affiliated_base_number
           description: >
             Associated base number for the fhv trip and vehicle
+            description: The total amount charged to passengers. Does not include cash tips.
