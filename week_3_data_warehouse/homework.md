@@ -25,7 +25,7 @@ What is the estimated amount of data that will be read when this query is execut
 - 225.82 MB for the External Table and 47.60MB for the BQ Table
 - 0 MB for the External Table and 0MB for the BQ Table
 - 0 MB for the External Table and 317.94MB for the BQ Table 
-- Kindly refer to file '_2023.sql' for code and solution
+
 
 ## Question 3:
 How many records have both a blank (null) PUlocationID and DOlocationID in the entire dataset?
@@ -33,7 +33,7 @@ How many records have both a blank (null) PUlocationID and DOlocationID in the e
 - 1,215,687
 - 5
 - 20,332
-- Kindly refer to file '_2023.sql' for code and solution
+
 
 ## Question 4:
 What is the best strategy to optimize the table if query always filter by pickup_datetime and order by affiliated_base_number?
@@ -49,7 +49,7 @@ Use the BQ table you created earlier in your from clause and note the estimated 
 - 647.87 MB for non-partitioned table and 23.06 MB for the partitioned table
 - 582.63 MB for non-partitioned table and 0 MB for the partitioned table
 - 646.25 MB for non-partitioned table and 646.25 MB for the partitioned table
-- Kindly refer to file '_2023.sql' for code and solution
+
 
 ## Question 6: 
 Where is the data stored in the External Table you created?
@@ -82,4 +82,3 @@ Deadline: 13 February (Monday), 22:00 CET
 
 ## Solution
 
-We will publish the solution here
